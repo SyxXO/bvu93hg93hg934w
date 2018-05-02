@@ -34,6 +34,6 @@ Vikram:Note taker - temp.
 
 **Individual checklists:**
 
-- [ ] Conceptualise maze-runner code.
+- [ ] Conceptualise maze-runner code. Alakai.
 
 
