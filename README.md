@@ -9,10 +9,10 @@ Amu: undeclared
 Dylan: undeclared
 
 Jason: undeclared
-        
-Vikram:Note taker - temp.
 
 Pawan: Hardware lead.
+        
+Vikram:Note taker - temp.
 
 **Week 1 checklist:**
 
@@ -31,5 +31,9 @@ Pawan: Hardware lead.
 - [ ] Set up a weekly team meeting.
  
 - [ ] Get everyones signatures for aggreement.
+
+**Individual checklists:**
+
+- [ ] Conceptualise maze-runner code.
 
 
