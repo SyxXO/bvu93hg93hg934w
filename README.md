@@ -16,24 +16,24 @@ Vikram:Note taker - temp.
 
 **Week 1 checklist:**
 
-- [ ] Meet teammates, and discuss strengths and weaknesses.
+- [x] Meet teammates, and discuss strengths and weaknesses.
 
-- [ ] Delegate roles based on the discussion above.
+- [x] Delegate roles based on the discussion above.
 
-- [ ] Try to construct a base hardware, allowing us to code it in the coming weeks.
+- [x] Try to construct a base hardware, allowing us to code it in the coming weeks.
 
-- [ ] Try to construct basic code to test motors.
+- [x] Try to construct basic code to test motors.
 
-- [ ] Complete AVC plan timetable for Week 1.
+- [x] Complete AVC plan timetable for Week 1.
 
 - [x] Set up GitHub Repository.
 
 - [ ] Set up a weekly team meeting.
  
-- [ ] Get everyones signatures for aggreement.
+- [x] Get everyones signatures for aggreement.
 
 **Individual checklists:**
 
-- [ ] Conceptualise maze-runner code. Alakai.
+- [x] Conceptualise maze-runner code. Alakai.
 
 
