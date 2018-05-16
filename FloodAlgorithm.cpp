@@ -56,6 +56,13 @@ int main(){
 			}
 			if (currentEV < 500 && currentEV > -500 && pixelSum >= 150 && pixelSum <= 240){
 
+				// from this point on code to follow the white line, may need to further calculate the threshoid
+				// will also need to add a couple of if statements to ensure once left hand turns have been detected
+				// that the robot will be able to differentiate from when it has completed quadrnt 2 and is within 3
+				// will then need to reuse the algorithm to follow the walls instead of the line
+				// after this the middle sensor should detect walls and red values (finish line is red tape)
+				// flood algorithm means left turns only so (if right & left vailable , go left, if straight go straight)
+
 			}
 		}
 
@@ -70,9 +77,9 @@ int main(){
 void turnRight(){
 	set_motor(1,20);
 	set_motor(2,40);
-	sleep(1,0); //or however long it takes to turn.
+	sleep(1,0); //or however long it takes to turn. Will have to test this value to figure out just how much time it takes
 	set_motor(1,0);
-	set_motor(2,0); //reset completely
+	set_motor(2,0); //reset completely and begin reading the next set of readings from sensor
 	sleep(1,0);
 
 }
@@ -86,7 +93,7 @@ void turnLeft(){
 void turnAround(){
 	set_motor(1,20);
 	set_motor(2,-20);
-	sleep(2,0); // time to turn around, might need to change.
+	sleep(2,0); // time to turn around, might need to change. Should complete a full 180 degree turn.
 	set_motor(1,0);
 	set_motor(2,0);
 }
